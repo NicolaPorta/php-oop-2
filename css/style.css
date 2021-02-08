@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+li {
+    height: 300px;
+    justify-content: space-around;
+    width: calc((100% / 3) - 10px);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 5px;
+}
