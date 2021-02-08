@@ -15,7 +15,7 @@
             $this->display_dimension = $display_dimension;
         }
 
-        public function getPresent() {
+        public function getGift() {
             if ($this->system == "Ubuntu 20.04") {
                 return "Mouse wireless included";
             } else {

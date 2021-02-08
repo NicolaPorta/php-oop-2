@@ -84,7 +84,7 @@
                     Shipping-cost: <?php echo $notebook->shipping_cost; ?>
                 </span>
                 <span>
-                    Present: <?php echo $notebook->getPresent(); ?>
+                    Gift: <?php echo $notebook->getGift(); ?>
                 </span>
             </li>
             <li>
@@ -102,7 +102,7 @@
                     Shipping-cost: <?php echo $notebook->shipping_cost; ?>
                 </span>
                 <span>
-                    Present: <?php echo $notebook->getPresent(); ?>
+                    Gift: <?php echo $notebook->getGift(); ?>
                 </span>
             </li>
             <li>
@@ -120,7 +120,7 @@
                     Shipping-cost: <?php echo $notebook->shipping_cost; ?>
                 </span>
                 <span>
-                    Present: <?php echo $notebook->getPresent(); ?>
+                    Gift: <?php echo $notebook->getGift(); ?>
                 </span>
             </li>
         </ul>
